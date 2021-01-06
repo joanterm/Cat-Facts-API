@@ -7,7 +7,11 @@ body {
     margin: 0;
     font-family: 'McLaren', cursive;
     background-color: #d7d7ff;
+    line-height: 1.6;
+    letter-spacing: 1px;
 }
+
+/* TYPOGRAPHY */
 
 h1,
 h2 {
@@ -22,30 +26,26 @@ h2 {
     font-size: 1.3rem;
 }
 
-.fact-area {
-    font-size: 1.2rem;
-    color: #404040;
-}
+/* MAIN SECTION */
 
 .container {
-    padding: 3em;
     background-color: #e6e6ff;
     width: 90%;
     max-width: 900px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
+    padding: 3em;
     margin: 5em auto;
-    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.3);
-   
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.3);  
 }
 
 .fact-area {
     padding: 1em;
-    height: 150px;
+    height: 200px;
+    font-size: 1.2rem;
+    color: #404040;
 }
+
+/* BUTTON */
 
 .btn {
     outline: none;
@@ -59,4 +59,24 @@ h2 {
 .btn:hover,
 .btn:focus {
     transform: scale(1.2); 
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .fact-area {
+        font-size: 0.8rem;
+        height: 150px;
+    }
+    .container {
+        margin: 1em auto;
+        padding: 1em;
+    }
 }
