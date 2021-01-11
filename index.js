@@ -24,3 +24,8 @@ displayFact()
 button.addEventListener("click", () => {
     displayFact()
 })
+
+
+
+
+

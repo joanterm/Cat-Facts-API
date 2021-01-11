@@ -77,6 +77,8 @@ h2 {
     .fact-area {
         font-size: 0.8rem;
         height: 150px;
+        padding: 0.5em;
+        height: 250px;
     }
     .container {
         margin: 1em auto;
