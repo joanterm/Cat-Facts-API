@@ -1,1 +1,1 @@
-A random cat fact generator using an API.
+A project that uses a fetch async/await function. It uses an API to generate a random cat fact upon clicking a button.
